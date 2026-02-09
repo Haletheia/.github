@@ -404,7 +404,7 @@ Knowledge graph del codebase:
 </td>
 <td width="50%">
 
-#### [hyddren-os](https://github.com/haletheia/hyddren-os)
+#### [hyddren-assistant](https://github.com/haletheia/hyddren-assistant)
 **Asistente por Voz (Offline)**
 
 CLI + Voice Assistant 100% local:
@@ -415,73 +415,6 @@ CLI + Voice Assistant 100% local:
 - ✅ **96/97 tests** passing
 
 **Stack**: Rust, Tokio, Vosk
-
-</td>
-</tr>
-</table>
-
----
-
-### 🎨 Proyectos Satélites (Aplicaciones Específicas)
-
-<table>
-<tr>
-<td width="33%">
-
-#### [FALI](https://github.com/haletheia/fali-live-ai-studio)
-**DAW con IA**
-
-Fast AI Live Interface:
-- 🎵 Composición asistida
-- 🎹 Generación MIDI
-- 🎚️ Mixing inteligente
-- 🎼 Análisis armónico
-
-**Stack**: Rust, JUCE
-
-</td>
-<td width="33%">
-
-#### [MÚLTIPLE](https://github.com/haletheia/web-ai-multiple)
-**Plataforma Educativa (D.O.H)**
-
-Con inteligencias múltiples (Gardner):
-- 🧠 8 tipos de inteligencia
-- 🎓 Tutor Socrático
-- 🌍 Contexto cultural andaluz
-- ✅ **158 tests** (93% coverage)
-- ✅ **Production-ready**
-
-**Stack**: Django, React, ChromaDB
-
-</td>
-<td width="33%">
-
-#### [Hedtonia](https://github.com/haletheia/hedtonia)
-**Editor 2D/3D con IA**
-
-Herramientas creativas:
-- 🎨 Generación procedural
-- 🖼️ Asset boosting
-- 🔮 Sugerencias de diseño
-
-**Stack**: Rust, OpenGL
-
-</td>
-</tr>
-<tr>
-<td colspan="3">
-
-#### [MEIA Platform](https://github.com/haletheia/manifiesto-etico-ia-platform)
-**Manifiesto Ético de la IA**
-
-Plataforma del manifiesto "Ética desde los márgenes":
-- 📜 **Manifiesto Completo**: Filosofía MEIA
-- 📊 **Certificación**: Estandarización ética
-- 🌍 **Democratización**: IA para todos, no solo élites
-- ✅ **Production**: Astro + TypeScript + MDX
-
-**Stack**: Astro, TypeScript, MDX
 
 </td>
 </tr>
