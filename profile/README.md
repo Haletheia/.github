@@ -10,241 +10,83 @@
   ἀλήθεια (alḗtheia) · "Desvelamiento de la verdad"
 ```
 
-**"El cerebro eres tú. Los LLMs son herramientas. Construimos la infraestructura que te permite usarlas con conciencia."**
-
-[Explora los Proyectos](#-proyectos-del-ecosistema) • [Entiende Nuestra Propuesta](#-qué-hacemos-realmente) • [Únete](#-comunidad)
+**El humano es el cerebro. Los LLMs son herramientas. Construimos la infraestructura para usarlas con conciencia.**
 
 </div>
 
 ---
 
-## 🌊 El Problema Real
+## Qué es Haletheia
 
-La industria de IA se obsesiona con **entrenar modelos más grandes**, pero nadie construye la infraestructura que hace que los humanos puedan **usar esos modelos de forma consciente, ética y sostenible**:
+Llevamos más de 2 años construyendo algo que empezó como herramientas y se convirtió en una tesis.
 
-```diff
-❌ Orquestación frágil: Chains que rompen, sin resiliencia, abstracciones que gotean
-❌ Ecosistemas cerrados: Cloud-only, opaco, sin control del usuario
-❌ Herramientas fragmentadas: Sin contexto persistente, cada sesión = reset
-❌ Agents caóticos: Loops infinitos, sin debugging, black box
-```
+La tesis: **la IA actual oculta demasiado**. Oculta sus errores (alucinaciones), oculta cómo piensa (black box), oculta qué no sabe (no detecta gaps), oculta tus datos (cloud obligatorio), oculta tu cultura (modelo único para todos).
 
-**La infraestructura que falta**:
-- 🧠 **Memoria coherente** (más allá de context window)
-- 🔍 **Trazabilidad completa** (¿cómo llegó a esa respuesta?)
-- 🛡️ **Resiliencia** (circuit breakers, retry, timeout)
-- ⚖️ **Ética pre-validada** (no post-hoc filters)
-- 📊 **Observabilidad radical** (métricas, trazas, análisis)
-- 🤝 **Protocolo de colaboración** sostenible a largo plazo
-- 👤 **"Yo digital"**: Asistente que te representa, no te reemplaza
+Haletheia es un ecosistema de proyectos que hace lo contrario: **desoculta**. Y lo hemos materializado en código funcional, no en un paper.
 
-**Es como tener herramientas poderosas sin manual, sin mantenimiento, sin ética.**
+**No construimos LLMs. Construimos la infraestructura para que los humanos usen IA de forma consciente, ética y sostenible.**
+
+| Lo que NO construimos | Lo que SÍ construimos |
+|---|---|
+| LLMs (los modelos ya existen) | **Memoria coherente** — más allá de context window |
+| Servicios cloud (ya existen) | **Orquestación resiliente** — circuit breakers, no chains frágiles |
+| Sustitutos del humano | **Trazabilidad completa** — debugging posible, no black box |
+| | **Ética ingenierizada** — pre-validación, no filtros opacos post-hoc |
+| | **Protocolo de contexto** — sostenible a largo plazo |
+| | **Ecosistema local-first** — tus datos son tuyos |
 
 ---
 
-## 💡 Qué Hacemos Realmente
+## Proyectos del Ecosistema
 
-> **"No entrenamos modelos. Construimos la infraestructura para que los humanos usen IA de forma consciente, ética y sostenible."**
+**15 repositorios** organizados en 3 capas.
 
-### La Realidad: Infraestructura para la Conciencia Digital
+### Núcleo cognitivo
 
-**Nosotros NO construimos**:
-- ❌ LLMs (los modelos ya existen: cloud providers y open source)
-- ❌ Servicios cloud (esos ya existen)
-- ❌ Sustitutos del humano (el humano es insustituible)
-
-**Nosotros SÍ construimos**:
-- ✅ **Memoria coherente** (más allá de context window naive)
-- ✅ **Orquestación resiliente** (circuit breakers, retry, no chains frágiles)
-- ✅ **Ecosistema abierto** (local-first, extensible, auditable)
-- ✅ **Trazabilidad completa** (debugging posible, no black box)
-- ✅ **Protocolo de contexto** (sostenible a largo plazo, no reset cada sesión)
-- ✅ **Ética ingenierizada** (pre-validación, no filtros opacos post-hoc)
-- ✅ **"Yo digital"**: Asistente que te representa en el capitalismo productivo
-
-### Nuestra Filosofía
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│              EL HUMANO ES EL CEREBRO, NO EL LLM              │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│  Vivimos en un capitalismo productivo donde:                │
-│  • Internet se llena de contenido generado sin conciencia   │
-│  • Se espera producción 24/7                                │
-│  • La "teoría del internet muerto" se vuelve realidad       │
-│                                                              │
-│  haletheia propone:                                          │
-│  • Un "yo digital" que te REPRESENTA, no te REEMPLAZA       │
-│  • Herramientas con memoria coherente y ética               │
-│  • Infraestructura para usar IA CON CONCIENCIA              │
-│  • Tú decides, la IA ejecuta (no al revés)                  │
-│  • Local-first: tus datos son tuyos                         │
-│                                                              │
-│  No vendemos "automatización sin humanos".                   │
-│  Vendemos "amplificación con conciencia".                    │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### La Metáfora: Tu "Yo Digital"
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                 TÚ ERES EL CEREBRO, NO EL LLM                │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│  🧠 CEREBRO Y CONCIENCIA   → Tú (el humano)                 │
-│  🤖 HERRAMIENTAS           → LLMs (cloud providers y open source)│
-│                                                              │
-│  haletheia construye tu "infraestructura digital":          │
-│                                                              │
-│  🦴 ESQUELETO              → LiiaDA (orquestación)           │
-│  🧬 MEMORIA                → HCP Memory (multi-escala)       │
-│  👁️ PERCEPCIÓN             → RAG, embeddings, verificación   │
-│  🗣️ VOZ                    → hyddren-os (asistente offline)  │
-│  ✍️ EJECUCIÓN              → waito-ide, AIR Platform         │
-│  ⚖️ ÉTICA                  → Ethilia (pre-validación)        │
-│  📊 AUTOOBSERVACIÓN        → HCP Observatory                 │
-│  📜 CONTEXTO PERSISTENTE   → HCP Protocol                    │
-│                                                              │
-│  Resultado: Un "yo digital" que TE REPRESENTA en el mundo   │
-│  del capitalismo productivo, pero CON CONCIENCIA.            │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**Tú piensas. Tu "yo digital" ejecuta. Con ética, memoria y trazabilidad.**
-
----
-
-## 📊 Capas de IA: Dónde Actuamos
-
-### La Jerarquía Completa
-
-```
-┌────────────────────────────────────────────────────────────┐
-│  Capa 5: PATRONES DE USO                                   │
-│  └─ Chatbot, code completion, RAG, agentes, etc.           │
-│     🎯 haletheia: Integramos todos estos patrones          │
-├────────────────────────────────────────────────────────────┤
-│  Capa 4: AGENTES                                           │
-│  └─ Sistemas autónomos con memoria y herramientas          │
-│     🎯 haletheia: AIR Platform (registry de agentes)       │
-├────────────────────────────────────────────────────────────┤
-│  Capa 3: AIG (Artificial Intelligence Generative)          │
-│  └─ Orquestación, prompts, context management              │
-│     🎯 haletheia: GAIA (arquitectura cognitiva)            │
-│                   HCP Memory (memoria coherente)           │
-│                   HCP Protocol (gestión contexto)          │
-├────────────────────────────────────────────────────────────┤
-│  Capa 2: LLM (Large Language Models)                       │
-│  └─ Modelos foundation (cloud providers y open source)     │
-│     ❌ NO actuamos aquí (usamos modelos de terceros)       │
-├────────────────────────────────────────────────────────────┤
-│  Capa 1: AGI (Artificial General Intelligence)             │
-│  └─ Inteligencia general multimodal (futuro lejano)        │
-│     ❌ NO actuamos aquí (no es nuestro objetivo)           │
-└────────────────────────────────────────────────────────────┘
-```
-
-### Nuestra Posición Estratégica
-
-**Operamos en las Capas 3, 4 y 5**:
-
-- **Capa 3 (AIG)**: Orquestación inteligente, memoria, ética, observabilidad
-- **Capa 4 (Agentes)**: Registry, deployment, composición de agentes
-- **Capa 5 (Patrones)**: IDE, voice assistant, RAG multi-dominio, code understanding
-
-**¿Por qué no operamos en Capa 2 (LLM)?**
-
-1. **Económico**: Entrenar un LLM competitivo cuesta $10M-$100M(por poner un rango.)
-2. **Científico**: Los grandes labs de investigación con billones en recursos ya lo hacen
-3. **Estratégico**: La diferenciación está en **cómo usas el LLM**, no en el modelo mismo
-4. **Filosófico**: El LLM es una herramienta. La conciencia es humana.
-
----
-
-## 🎨 Ingeniería de Conceptos Abstractos
-
-### No Es "Usar Matemáticas" (Eso Es Obvio en IA)
-
-**Todos en IA usan matemáticas**: gradientes, softmax, backprop, transformers.
-
-**Lo que NO es obvio**: Tomar conceptos abstractos (filosóficos, psicológicos, físicos) y **ingenierizarlos** para resolver problemas reales de software en producción.
-
-### Ejemplos de Abstracción → Ingeniería
-
-| Concepto Abstracto | Problema de Software | Nuestra Ingeniería |
-|-------------------|----------------------|-------------------|
-| **Entropía de Shannon** (teoría información) | "¿Está seguro el modelo?" | **Entropy Layer**: Si entropía > threshold → suspender juicio |
-| **Epoché** (Husserl, fenomenología) | LLM inventa con confianza | **GAIA Identity**: Si conflicto ontológico → "No sé" |
-| **Memoria episódica** (Tulving, psicología) | Context window = límite duro | **HCP Memory**: Fast/Mid/Slow + consolidación tipo sueño |
-| **Narrativa coherente** (Bruner, cognición) | Respuestas contradictorias | **Narrative Layer**: Valida consistencia vs historial |
-| **Circuit breaker** (microservices) | Cascade failures en agents | **Resiliencia**: Detecta fallos, aísla, retry exponencial |
-| **Trazabilidad** (observability) | "¿Cómo llegó a esto?" | **Observable Reasoning**: Trace completo de decisión |
-| **Sleep cycles** (neurociencia) | Olvido catastrófico | **CIPP Consolidation**: EWC + GEM + NREM/REM simulation |
-
-### Nuestra Tesis
-
-> **"Un LLM sin infraestructura consciente es como un martillo sin carpintero: poderoso, pero sin propósito ni ética."**
-
-Nosotros **ingenierizamos** la infraestructura que permite usar IA **con conciencia**:
-
-| Sistema | Para Qué | Problema que Resuelve |
-|---------|----------|----------------------|
-| **HCP Memory** | Memoria coherente | Context window limitado, olvido catastrófico |
-| **GAIA** | Orquestación ética | Chains caóticas sin resiliencia |
-| **Observable Reasoning** | Trazabilidad | Decisions en black box, debugging imposible |
-| **HCP Protocol** | Contexto persistente | Reset cada sesión, pérdida de información |
-| **Resiliencia** | Production-ready | Cascade failures, sin circuit breakers |
-| **Ethilia** | Ética auditable | Filtros opacos post-hoc (RLHF) |
-| **Observatory** | Autoobservación | Cero métricas, no sabes qué pasa |
-| **waito-ide** | Ecosystem abierto | Fragmentación, cloud lock-in |
-
-**El LLM es la herramienta. La infraestructura es la conciencia de cómo usarla.**
-
----
-
-## 🏗️ Proyectos del Ecosistema
-
-### 🧠 Núcleo: Arquitectura Cognitiva e Infraestructura
+Librerías y frameworks que forman el stack de inteligencia. Todos se integran en o giran alrededor de **LiiaDA**.
 
 <table>
 <tr>
 <td width="50%">
 
-#### [LiiaDA Framework](https://github.com/haletheia/liiada)
-**El esqueleto del ecosistema**
+#### [LiiaDA](https://github.com/haletheia/liiada)
+**Orquestador central — el esqueleto del ecosistema**
 
-NO es un LLM. Es la **infraestructura** que orquesta LLMs:
+Router multi-LLM, RAG multi-dominio, puente a todos los módulos. No es un LLM: es la infraestructura que los orquesta.
 
-- 🔀 **LLM Router**: Multi-proveedor (cloud o local) intercambiablemente
-- 🧠 **Animus (Memoria)**: Episódica, semántica, narrativa
-- 📚 **RAG Multi-Dominio**: Legal, finance, medical, code
-- ⚖️ **Ethical Validation**: Filtros ANTES de responder
-- 🌍 **Cultural Adaptation**: LCMR (contexto cultural)
-
-**Stack**: Python, FastAPI, ChromaDB, Ollama
+`Python` · `FastAPI` · `ChromaDB` · `Ollama`
 
 </td>
 <td width="50%">
 
 #### [GAIA](https://github.com/haletheia/gaia)
-**Grounded Aware Intelligent Architecture**
+**Arquitectura cognitiva — 6 capas de validación**
 
-NO es un modelo. Es una **arquitectura de orquestación cognitiva**.
+Entropía (Shannon), Narrativa (Bruner), Recursión (Hofstadter), Verificación, Eficiencia, Identidad (z_core). Anti-alucinación por diseño.
 
-**6 capas** (filosofía + ciencia):
+`Python` · `NumPy` · `SciPy` · 50+ tests
 
-1. **Entropy** → Incertidumbre (Shannon)
-2. **Narrative** → Coherencia (Bruner)
-3. **Recursive** → Meta-cognición (Hofstadter)
-4. **Verification** → Fact-checking
-5. **Efficiency** → ROI cognitivo
-6. **Identity** → z_core (núcleo ontológico)
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-**Stack**: Python, PyTorch, NumPy
+#### [Halexandria](https://github.com/haletheia/halexandria)
+**Motor de conocimiento cognitivo**
+
+Búsqueda vectorial (ChromaDB) + grafo de conocimiento (NetworkX) + trazas de razonamiento + detección de gaps + drift tracking. Local-first, aislamiento per-agente.
+
+`Python` · `ChromaDB` · `NetworkX` · 66 tests
+
+</td>
+<td width="50%">
+
+#### [Ethilia](https://github.com/haletheia/ethilia)
+**Gobernanza ética pre-validada**
+
+Validators configurables (YAML), detección de bias (8 categorías), sensibilidad cultural. Pre-validación, no filtros post-hoc.
+
+`Python` · `Pydantic` · `YAML`
 
 </td>
 </tr>
@@ -252,67 +94,43 @@ NO es un modelo. Es una **arquitectura de orquestación cognitiva**.
 <td width="50%">
 
 #### [HCP Memory Engine](https://github.com/haletheia/hcp-mem-engine)
-**Sistema de Memoria Multi-Escala (CIPP)**
+**Memoria multi-escala (CIPP)**
 
-Motor de memoria con propósito e intención:
+Fast/Mid/Slow con consolidación tipo sueño (NREM/REM). EWC + GEM para evitar olvido catastrófico. Científicamente fundado.
 
-- 🧠 **Fast/Mid/Slow Memory**: Consolidación tipo cerebro humano
-- 🔄 **Sleep Cycles**: NREM/REM simulation
-- 🎯 **Intent Classification**: 6 tipos de intención
-- 📊 **Context Hierarchy**: Project → Task → Interaction
-- 🔬 **Científicamente Fundado**: EWC, GEM, Theta-Gamma
-
-**Stack**: Python, NumPy, Embeddings
+`Python` · `NumPy` · ~50 tests
 
 </td>
 <td width="50%">
 
-#### [Ethilia](https://github.com/haletheia/liiada-ethical-ai)
-**Framework de Gobernanza Ética**
+#### [Micra](https://github.com/haletheia/micra)
+**Framework de deep learning desde cero en Rust**
 
-Validación ética en tiempo real:
+10 crates: autograd escalar → tensores ND → capas NN → transformer GPT → runtime CPU/GPU → kernels CUDA propios. Progresión pedagógica con 440+ tests. Se integra con LiiaDA vía PyO3 como LLM provider local.
 
-- ⚖️ **EthicsValidator**: Reglas configurables YAML
-- 🛡️ **Governance Engine**: Pre-validación de respuestas
-- 🔍 **Bias Detection**: 8 categorías de riesgo
-- 🌍 **Cultural Sensitivity**: Adaptación contextual
-- 📊 **Ethical Metrics**: Tracking de violaciones
-
-**Stack**: Python, Pydantic, YAML
+`Rust` · `CUDA/C++` · `PyO3` · 440+ tests
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-#### [HCP Observatory](https://github.com/haletheia/hcp-fastapi-observatory)
-**Framework de Observabilidad**
+#### [HCP Observatory](https://github.com/haletheia/hcp-observatory)
+**Observabilidad para servicios IA**
 
-Métricas, trazas y análisis:
+Logging estructurado (structlog), métricas HTTP, tracking de tokens, <5ms overhead. Observable Reasoning: traza completa de decisiones.
 
-- 📊 **Prometheus Integration**: Métricas HTTP
-- ⏱️ **Performance Tracking**: < 5ms overhead
-- 🎯 **Hierarchical Context**: Project → Service → Endpoint
-- 🔄 **Pattern Detection**: Anomalías automáticas
-- 📈 **Grafana Dashboards**: Visualización
-
-**Stack**: Python, FastAPI, Prometheus
+`Python` · `FastAPI` · `structlog` · 253 tests
 
 </td>
 <td width="50%">
 
-#### [HCP Protocol](https://github.com/haletheia/human-code-ai-protocol)
-**Protocolo de Colaboración Humano-IA**
+#### [UnderCtrl](https://github.com/haletheia/underctrl)
+**Patrones de resiliencia**
 
-Como **Git** para el código, **HCP** para el contexto:
+Circuit breaker, retry exponencial, timeouts, fallback, pipelines resilientes. Production-ready.
 
-- 📁 **`.procontext/`**: Memoria del proyecto
-- 🔄 **RPI+ Workflow**: Research → Plan → Implement → Verify
-- 🎭 **Roles & Vibes**: Personalidades IA modulares
-- 📊 **Validado en Producción**: +40% velocidad, 0% pérdida de contexto
-- 🏆 **Resultados**: 7 meses en proyecto real (AIDDE Native IDE)
-
-**Stack**: Protocol (agnóstico), Markdown
+`Python` · `Pydantic` · 42 tests
 
 </td>
 </tr>
@@ -320,101 +138,74 @@ Como **Git** para el código, **HCP** para el contexto:
 
 ---
 
-### 💻 Herramientas de Desarrollo
+### Productos
+
+Aplicaciones de usuario construidas sobre el núcleo.
 
 <table>
 <tr>
 <td width="50%">
 
-#### [waito-ide](https://github.com/haletheia/waito-ide)
-**IDE con IA Integrada**
+#### [MEIA](https://github.com/haletheia/meia)
+**Manifiesto Ético de la IA — Libro-Web-Foro**
 
-Editor de código nativo con LiiaDA como backend:
-- Fusión de `aidde-native` (Rust) + `aidde-front` + `aidde-contracts` + `faara`
-- Autocompletado semántico (no solo sintáctico)
-- Code review con validación GAIA
-- Ejecución de agentes AIR
-- **100% offline** (opcional)
+PDF descargable (129 documentos) + web Astro (50+ casos éticos con contenido completo) + foro de discusión por caso ético. Backend Go con API REST + SQLite. Docker orchestration.
 
-**Stack**: Rust, TypeScript, Tauri
+`Astro` · `Go` · `Docker` · `SQLite`
 
 </td>
 <td width="50%">
 
-#### [FAARA Framework](https://github.com/haletheia/framework-ui-react-angular)
-**Fast Async Agnostic Reactive Architecture**
+#### [Waito Back](https://github.com/haletheia/waito-back)
+**Backend del IDE nativo**
 
-Framework UI production-ready para waito-ide:
-- 🎯 **Fine-grained Reactivity**: SolidJS-style
-- 🔒 **Thread-Safe**: Send + Sync en Rust
-- 🎨 **Spring Physics**: Animaciones naturales
-- 🛡️ **Resilience Patterns**: Circuit breakers
-- ✅ **187 tests, 0 unsafe, 100% coverage**
+LSP, Git, terminal, sistema de archivos, servicios IA, resolución visual de conflictos. 11 crates Rust. Privacy-first.
 
-**Stack**: Rust, parking_lot, tokio
+`Rust` · 11 crates · `LSP`
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-#### [AIDDE Contracts](https://github.com/haletheia/aidde-contracts)
-**IDL para IDEs Modernos**
+#### [Waito Front](https://github.com/haletheia/waito-front)
+**Frontend del IDE nativo**
 
-Contratos/interfaces del ecosistema:
-- 🤝 **SOLID Principles**: Interfaces, no implementaciones
-- 🔄 **Interoperability**: Cualquier backend (Rust, Python, JVM, Go)
-- ⚙️ **Traits**: `GitManager`, `LspManager`, `AIClient`, etc.
-- 🔒 **Type-Safe**: Compile-time garantizado
-- 📦 **Zero-Cost**: Abstracciones sin overhead
+UI reactiva con FAARA (framework propio), 50+ componentes, rendering egui, GUI-agnóstico.
 
-**Stack**: Rust, async_trait
+`Rust` · `egui` · `FAARA` · `Tauri`
 
 </td>
 <td width="50%">
 
-#### [AIR Platform](https://github.com/haletheia/air-platform)
-**Registry de Agentes ("npm para IA")**
+#### [AIR Platform](https://github.com/haletheia/ai-package-registry)
+**Registry de agentes — "npm para IA"**
 
-Marketplace de agentes especializados:
-- 🤖 Agentes por dominio (FastAPI, React, Spring Boot)
-- 🔄 Multi-Capability Agents (MCPs)
-- 📦 CLI: `air search`, `air install`, `air run`
-- 🔍 Auto-discovery: GitHub, HuggingFace
-- ✅ **MVP Completo** + LiiaDA CLI integrado
+Búsqueda avanzada, integraciones GitHub/HuggingFace/PyPI/npm. CLI + API REST + Web UI. Usa Halexandria como backend de conocimiento.
 
-**Stack**: Python, FastAPI, PostgreSQL
+`Python` · `FastAPI` · `Angular`
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-#### [hk-graph-ai](https://github.com/haletheia/hk-graph-ai)
-**CodeWiki Semántica**
+#### [Hyddren Assistant](https://github.com/haletheia/hyddren-assistant)
+**Asistente de voz 100% offline**
 
-Knowledge graph del codebase:
-- 🕸️ Mapea dependencias (AST + embeddings)
-- 🔎 Búsqueda semántica de código
-- 📊 Análisis de impacto de cambios
-- 🧩 Entiende relaciones conceptuales
+STT (Vosk), TTS nativo, LiiaDA como backend, 8 skills modulares (sistema, archivos, procesos, paquetes, red). Sin cloud, sin telemetría.
 
-**Stack**: Python, Neo4j, NetworkX
+`Rust` · `Tokio` · `Vosk` · 96 tests
 
 </td>
 <td width="50%">
 
-#### [hyddren-assistant](https://github.com/haletheia/hyddren-assistant)
-**Asistente por Voz (Offline)**
+#### [LiiaDA MCP](https://github.com/haletheia/liiada-mcp)
+**Servidor Model Context Protocol**
 
-CLI + Voice Assistant 100% local:
-- 🎙️ **STT Offline**: Vosk (sin cloud)
-- 🔊 **TTS Nativo**: Speech Dispatcher
-- 🧠 **LiiaDA Backend**: Memoria + contexto
-- 🛠️ **8 Skills**: System, files, packages, network
-- ✅ **96/97 tests** passing
+Expone herramientas de LiiaDA via MCP: análisis de código (estructura, smells, dependencias), búsqueda de docs, búsqueda de paquetes. Compatible con Claude Desktop y Cursor.
 
-**Stack**: Rust, Tokio, Vosk
+`Python` · `FastMCP` · `MCP SDK`
 
 </td>
 </tr>
@@ -422,224 +213,166 @@ CLI + Voice Assistant 100% local:
 
 ---
 
-## 🎯 Propuesta de Valor Real
+### Protocolo
 
+<table>
+<tr>
+<td>
 
-### Los 6 Principios de haletheia
+#### [Human-Code-AI Protocol](https://github.com/haletheia/human-code-ai-protocol)
+**Protocolo de colaboración humano-IA — como Git, pero para el contexto**
+
+Workflow RPI+ (Research → Plan → Implement → Verify → Compact), roles modulares, vibes, contexto persistente (`.procontext/`). Validado 7 meses en producción. Agnóstico de herramienta.
+
+`Markdown` · `YAML` · agnóstico de lenguaje
+
+</td>
+</tr>
+</table>
+
+---
+
+## Cómo encaja todo
 
 ```
-1. RESILIENCIA
-   └─ Circuit breakers, retry exponencial, timeouts
-   └─ Cascade failures = imposible
-   └─ Production-ready, no prototipos frágiles
-
-2. TRAZABILIDAD
-   └─ Observable Reasoning: trace completo de decisiones
-   └─ Debugging: sabes exactamente qué pasó
-   └─ Auditoría: reproduce cualquier respuesta
-
-3. MEMORIA COHERENTE
-   └─ Multi-escala (Fast/Mid/Slow), no solo embeddings
-   └─ Consolidación tipo sueño (NREM/REM)
-   └─ Context > window limits
-
-4. ÉTICA INGENIERIZADA
-   └─ Pre-validación, no filtros post-hoc
-   └─ Configurable, no caja negra RLHF
-   └─ Auditable: sabes por qué rechazó algo
-
-5. PROTOCOLO DE CONTEXTO
-   └─ HCP: Git para contexto IA
-   └─ Sostenible a largo plazo (validado 7 meses)
-   └─ Sin pérdida de información
-
-6. LOCAL-FIRST
-   └─ Privacidad real, no marketing
-   └─ Funciona offline
-   └─ Tus datos = tuyos
+                        ┌──────────────────┐
+                        │   TÚ (el humano) │
+                        └────────┬─────────┘
+                                 │ decide, valida, aprende
+                                 ▼
+                    ┌────────────────────────┐
+                    │     HCP Protocol       │  contexto persistente
+                    └────────────┬───────────┘
+                                 │
+                                 ▼
+    ┌──────────────────────────────────────────────────────────┐
+    │                    LiiaDA (orquestador)                   │
+    │                                                          │
+    │  ├── GAIA            (validación cognitiva)              │
+    │  ├── Halexandria     (conocimiento + grafos)             │
+    │  ├── Ethilia         (gobernanza ética)                  │
+    │  ├── HCP Memory      (memoria multi-escala)              │
+    │  ├── Observatory     (observabilidad)                    │
+    │  ├── UnderCtrl       (resiliencia)                       │
+    │  └── Micra           (LLM provider local vía PyO3)      │
+    └──────────────────┬───────────────────────────────────────┘
+                       │
+        ┌──────────────┼──────────────┬──────────────┐
+        ▼              ▼              ▼              ▼
+   ┌─────────┐  ┌───────────┐  ┌──────────┐  ┌──────────┐
+   │   AIR   │  │  Waito    │  │ Hyddren  │  │   MEIA   │
+   │Platform │  │  (IDE)    │  │  (voz)   │  │(libro-   │
+   │(agentes)│  │front+back │  │ offline  │  │ web-foro)│
+   └─────────┘  └───────────┘  └──────────┘  └──────────┘
 ```
 
 ---
 
-## 🔒 Privacidad Radical
+## Ingeniería de conceptos abstractos
 
-### El Único Diferenciador que Importa
+Lo que diferencia a Haletheia: tomar conceptos abstractos — filosóficos, psicológicos, físicos — e **ingenierizarlos** en código de producción.
 
-```
-Tu código nunca sale de tu máquina.
-Tus prompts nunca entrenan modelos de terceros.
-Tus datos nunca viajan a servidores ajenos.
-```
-
-**Tabla comparativa (infraestructura, no modelos)**:
-
-| Aspecto | Orquestación frágil | Ecosistemas cerrados | Agents caóticos | **haletheia** |
-|---------|---------------------|---------------------|-----------------|---------------|
-| **Resiliencia** | ❌ Sin circuit breakers | ⚠️ Básica | ❌ Loops infinitos | ✅ **Circuit breakers + retry** |
-| **Memoria coherente** | ⚠️ Embeddings naive | ⚠️ Context window | ❌ Sin memoria | ✅ **Multi-escala (Fast/Mid/Slow)** |
-| **Trazabilidad** | ❌ Black box | ❌ Opaco | ❌ Imposible debug | ✅ **Observable Reasoning** |
-| **Protocolo de contexto** | ❌ Reset cada sesión | ❌ | ❌ | ✅ **HCP (validado 7 meses)** |
-| **Ética pre-validada** | ❌ Filtros post-hoc | ⚠️ Opaco | ❌ | ✅ **Ethilia (configurable)** |
-| **Local-first** | ⚠️ Opcional | ❌ Cloud-only | ⚠️ Opcional | ✅ **Por diseño** |
-| **Debugging** | ❌ Chains opacos | ❌ | ❌ | ✅ **Full trace** |
-| **Ecosystem integrado** | ❌ Fragmentado | ✅ Pero cerrado | ❌ | ✅ **17 proyectos abiertos** |
-| **Filosofía** | Automatización | Productividad | Autonomía | ✅ **Conciencia digital** |
+| Concepto abstracto | Problema de software | Nuestra ingeniería |
+|---|---|---|
+| **Entropía de Shannon** | "¿Está seguro el modelo?" | Entropy Layer: si entropía > threshold → suspender juicio |
+| **Epoché de Husserl** | LLM inventa con confianza | GAIA Identity: si conflicto ontológico → "No sé" |
+| **Memoria episódica de Tulving** | Context window = límite duro | HCP Memory: Fast/Mid/Slow + consolidación tipo sueño |
+| **Narrativa coherente de Bruner** | Respuestas contradictorias | Narrative Layer: valida consistencia vs historial |
+| **Circuit breaker** | Cascade failures en agents | UnderCtrl: detecta fallos, aísla, retry exponencial |
+| **Sleep cycles** | Olvido catastrófico | CIPP Consolidation: EWC + GEM + simulación NREM/REM |
+| **Arco de compresión de Karpathy** | LLMs como caja negra | Micra: 10 crates que reconstruyen el stack desde autograd |
 
 ---
 
-## 📊 En Números
+## Capas de valor
 
 ```
-╔═════════════════════════════════════╗
-║  17 proyectos integrados            ║
-║  ~200,000 líneas de código          ║
-║  ~1,500 tests automatizados         ║
-║  5 lenguajes (Rust, Python, TS, Java, Astro) ║
-║  3+ años de desarrollo              ║
-║  0 modelos entrenados desde cero    ║
-║  0% de telemetría                   ║
-║  100% open source (MIT)             ║
-╚═════════════════════════════════════╝
+    ┌─────────────────────────────────────────────┐
+    │    Capa 4: Consulting / Formación           │
+    │  ┌───────────────────────────────────────┐  │
+    │  │    Capa 3: LiiaDA (core — nunca se    │  │
+    │  │            expone directamente)       │  │
+    │  │  ┌─────────────────────────────────┐  │  │
+    │  │  │  Capa 2: Plataformas            │  │  │
+    │  │  │  MEIA · Waito · AIR · Hyddren   │  │  │
+    │  │  │  ┌───────────────────────────┐  │  │  │
+    │  │  │  │ Capa 1: Librerías PyPI    │  │  │  │
+    │  │  │  │ GAIA · Halexandria ·      │  │  │  │
+    │  │  │  │ Ethilia · UnderCtrl ·     │  │  │  │
+    │  │  │  │ HCP Memory · Observatory  │  │  │  │
+    │  │  │  │  ┌─────────────────────┐  │  │  │  │
+    │  │  │  │  │ Capa 0: Filosofía   │  │  │  │  │
+    │  │  │  │  │ HCP · MEIA · Micra  │  │  │  │  │
+    │  │  │  │  └─────────────────────┘  │  │  │  │
+    │  │  │  └───────────────────────────┘  │  │  │
+    │  │  └─────────────────────────────────┘  │  │
+    │  └───────────────────────────────────────┘  │
+    └─────────────────────────────────────────────┘
 ```
 
-**Somos honestos**: No tenemos billones de parámetros. **Tenemos la infraestructura para que TÚ uses IA con conciencia, memoria, ética y trazabilidad.**
+Cada capa genera valor independiente. El core nunca se expone directamente — se monetiza a través de las capas exteriores. Las librerías funcionan solas (sin LiiaDA). Las plataformas las combinan en productos.
 
 ---
 
-## 🌍 Para Quién es Esto
+## Stack tecnológico
 
-### Este Proyecto NO Es Para Ti Si...
-
-- ❌ Buscas el LLM más grande del mundo
-- ❌ Quieres competir en entrenar modelos
-- ❌ Prefieres soluciones mágicas sin fundamento
-- ❌ Te conformas con automatización sin conciencia
-
-### Este Proyecto ES Para Ti Si...
-
-- ✅ Valoras **amplificación sobre reemplazo**
-- ✅ Quieres **infraestructura ética** alrededor de LLMs
-- ✅ Necesitas **memoria persistente** y contextual
-- ✅ Buscas **trazabilidad completa** (no black box)
-- ✅ Te importa la **privacidad real** (no marketing)
-- ✅ Crees en **usar IA con conciencia**
-- ✅ Quieres **protocolos validados en producción**
-
-**Bienvenido al ecosistema de infraestructura consciente.**
+| Tecnología | Dónde | Para qué |
+|---|---|---|
+| **Python** | LiiaDA, GAIA, Halexandria, Ethilia, UnderCtrl, Observatory, HCP Memory, AIR, MCP | Core IA, frameworks, APIs |
+| **Rust** | Waito (front+back), Hyddren, Micra | Rendimiento, productos nativos, seguridad de memoria |
+| **Go** | MEIA (backend) | API REST ligera, binario único |
+| **Astro** | MEIA (frontend) | SSG, Content Collections, SEO |
+| **CUDA/C++** | Micra (kernels GPU) | Kernels propios vía FFI |
 
 ---
 
-## 🤝 Comunidad
+## Patrones que atraviesan el ecosistema
 
-### Principios
+**Local-first**: todos los productos priorizan ejecución local sin cloud obligatorio (LiiaDA + Ollama, Hyddren + Vosk, Micra GPU local, MEIA + SQLite).
 
-1. **Honestidad brutal**: No vendemos humo
-2. **Local-first**: La nube es opcional, no obligatoria
-3. **Open philosophy**: Explicamos el "por qué"
-4. **Ethical by design**: La ética es el fundamento
-5. **Cultural sensitivity**: La IA se adapta a ti
-6. **Validated in production**: Protocolos con métricas reales
+**Composición modular**: cada proyecto funciona solo y se ensambla con otros (GAIA + Halexandria + Ethilia → LiiaDA → Waito / AIR / Hyddren).
 
-### Cómo Contribuir
+**Ética como principio de diseño**: no es un add-on. Ethilia pre-valida. MEIA cuestiona. HCP traza. GAIA verifica.
 
-**Áreas donde puedes ayudar:**
-- 🧠 **Arquitectura cognitiva**: Nuevas capas GAIA, patrones de orquestación
-- 📊 **Benchmarks**: Métricas de honestidad, coherencia, ética
-- 🔒 **Privacidad**: Auditorías, mejoras de seguridad
-- 🎨 **Herramientas**: UI/UX para waito-ide, AIR Platform
-- 📝 **Documentación**: Tutoriales, papers, traducciones
-- 🌍 **i18n**: Soporte multi-idioma
-- 🔬 **HCP Protocol**: Mejoras al protocolo, nuevos patrones
+**Rust + Python como binomio**: Python para IA y agentes. Rust para rendimiento y productos nativos. Puente vía PyO3 (Micra → LiiaDA) y HTTP (LiiaDA → Waito).
 
 ---
 
-## 📚 Recursos
-
-### Para Empezar
-
-- **[LiiaDA Docs](https://github.com/haletheia/liiada)** - Instala el framework
-- **[GAIA README](https://github.com/haletheia/gaia)** - Arquitectura cognitiva
-- **[HCP Protocol](https://github.com/haletheia/human-code-ai-protocol)** - Protocolo de colaboración
-- **[hyddren-os Guide](https://github.com/haletheia/hyddren-os)** - Asistente offline
-
-### Papers (en preparación)
-
-- **"Honest AI through Ontological Epoché"** - GAIA
-- **"Multi-Scale Memory for Coherent AI"** - HCP Memory
-- **"Human-Code-AI Protocol: Git for Context"** - HCP
-- **"Ética de la IA desde la Exclusión"** - Manifiesto MEIA
-
----
-
-## ✨ Manifiesto
-
-### "IA con Conciencia: El Humano es el Cerebro"
+## En números
 
 ```
-En un mundo de capitalismo productivo donde:
-  • Se espera producción 24/7
-  • Internet se llena de contenido sin conciencia
-  • La "teoría del internet muerto" se vuelve realidad
-  • Las IA reemplazan en vez de amplificar
-
-haletheia propone una alternativa:
-
-EL HUMANO ES EL CEREBRO, NO EL LLM.
-  └─ Los LLMs son herramientas poderosas
-  └─ Pero tú eres quien decide, quien tiene ética, quien aprende
-
-CONSTRUIMOS INFRAESTRUCTURA PARA LA CONCIENCIA DIGITAL:
-  • Resiliencia: circuit breakers, retry, timeouts
-  • Trazabilidad: sabes cómo llegó a cada decisión
-  • Memoria: más allá del context window
-  • Ética: pre-validación, no filtros opacos
-  • Protocolo: contexto sostenible (7 meses validado)
-  • Local-first: tus datos son tuyos
-
-TU "YO DIGITAL":
-  └─ Te REPRESENTA en el mundo productivo
-  └─ NO te reemplaza
-  └─ Con memoria, ética y trazabilidad
-  └─ Bajo tu control consciente
-
-No vendemos automatización sin humanos.
-Vendemos amplificación con conciencia.
-
-No competimos en entrenar modelos más grandes.
-Competimos en mentalidad: uso consciente vs uso inconsciente.
-
-Abstraemos conceptos.
-Los ingenierizamos.
-Los validamos en producción.
-Los compartimos open source.
+15 repositorios en la organización
+~140,000 líneas de código
+~1,600 tests automatizados
+5 lenguajes (Python, Rust, Go, TypeScript/Astro, CUDA)
+3+ años de desarrollo (2023–2026)
+0 modelos entrenados desde cero
+0% de telemetría
+100% open source (MIT)
 ```
 
 ---
 
-## 🌟 Por Qué "haletheia"
+## Para quién es esto
 
-**Aletheia** (ἀλήθεια) = **"Desvelamiento de la verdad"** (Heidegger)
+**No es para ti si** buscas el LLM más grande, quieres competir en entrenar modelos, o prefieres automatización sin conciencia.
 
-En filosofía: La verdad no es estática, es un **proceso activo de revelación**.
+**Es para ti si** valoras amplificación sobre reemplazo, necesitas infraestructura ética alrededor de LLMs, te importa la privacidad real, y crees en usar IA con conciencia.
 
-En IA: No buscamos sistemas con "todas las respuestas". Buscamos sistemas que **desvelen honestamente** lo que saben y **admitan** lo que no.
+---
 
-La **"H" inicial** rinde homenaje a **Heidegger**.
+## Por qué "Haletheia"
+
+**Aletheia** (ἀλήθεια) = "Desvelamiento de la verdad" (Heidegger). La verdad no es estática: es un proceso activo de revelación. En IA: no buscamos sistemas con todas las respuestas. Buscamos sistemas que desvelen honestamente lo que saben y admitan lo que no. La **H** inicial rinde homenaje a Heidegger y al apodo del creador de los proyectos de **Haletheia**, Hidden.
 
 ---
 
 <div align="center">
 
-**"Tú eres el cerebro. Los LLMs son herramientas. Construimos la infraestructura para usarlas con conciencia."**
+**El humano es el cerebro. Los LLMs son herramientas. Construimos la infraestructura para usarlas con conciencia.**
 
----
+[Explora los Proyectos](https://github.com/orgs/haletheia/repositories) · [HCP Protocol](https://github.com/haletheia/human-code-ai-protocol) · [MEIA](https://github.com/haletheia/meia)
 
-🌊 **haletheia** - Honest AI Ecosystem
-
-[Explora los Proyectos](https://github.com/orgs/haletheia/repositories) • [Lee la Documentación](https://haletheia.github.io) • [Únete](https://github.com/orgs/haletheia/discussions)
-
----
-
-*Infraestructura para usar IA con conciencia - Amplificación, no reemplazo*
+*Infraestructura para usar IA con conciencia — Amplificación, no reemplazo*
 
 </div>
