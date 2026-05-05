@@ -1,85 +1,367 @@
-# haletheia - Ethical AI Ecosystem
-
 <div align="center">
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![Visits](https://komarev.com/ghpvc/?username=haletheia-profile&color=blue)]()
+![HALETHEIA Ecosystem](./assets/haletheia-github-hero-banner.png)
 
-```
-  ╦ ╦  ╔═╗  ╦    ╔═╗  ╔╦╗  ╦ ╦  ╔═╗  ╦  ╔═╗
-  ╠═╣  ╠═╣  ║    ║╣    ║   ╠═╣  ║╣   ║  ╠═╣
-  ╩ ╩  ╩ ╩  ╩═╝  ╚═╝   ╩   ╩ ╩  ╚═╝  ╩  ╩ ╩
-  ———————————————————————————————————————————
-  ἀλήθεια (alḗtheia) · "Desvelamiento de la verdad"
-```
+[![License: AGPL](https://img.shields.io/badge/License-AGPL%20v3-00ff88.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![EU AI Act Aligned](https://img.shields.io/badge/EU_AI_Act-Aligned_by_Design-00ff88.svg)]()
+[![Zero-Trust Architecture](https://img.shields.io/badge/Zero--Trust-Hardware_Isolated-00D9FF.svg)]()
+[![100% Traceable](https://img.shields.io/badge/100%25-Traceable-00ff88.svg)]()
 
-**El humano es el cerebro. Los LLMs son herramientas.<br>Construimos la infraestructura para usarlas con conciencia.**
+**[🇪🇸 Versión en Español](./README.es.md)**
 
 </div>
 
 ---
 
-## 🏛️ La Tesis: Desocultar la Inteligencia Artificial
+## 🎯 The Structural Crisis HALETHEIA Solves
 
-La inteligencia artificial contemporánea oculta demasiado. Oculta sus errores bajo la apariencia de confianza (alucinaciones), oculta sus procesos de razonamiento (black box), y oculta la extracción de valor cultural y privado a través del monopolio del *cloud*.
+Enterprise AI is facing a **structural trust crisis**:
 
-En **HALETHEIA Labs**, creemos que la IA no debe ser un agente de oscurecimiento ni un reemplazo cognitivo, sino una herramienta de amplificación humana. 
+- 🔴 **Undetected hallucinations** → Wrong business decisions
+- 🔴 **Lack of traceability** → Impossible to audit for EU AI Act
+- 🔴 **Monolithic black boxes** → You can't debug or optimize
+- 🔴 **Ephemeral context** → Agents lose memory between sessions
 
-Nuestra tesis es simple: **Optimizar Personas, No Procesos**.
-No construimos sistemas para reemplazar al humano ni para añadir capas opacas de automatización ciega. Construimos la infraestructura de ejecución consciente, segura y ética que devuelve el control al creador.
+**The real problem:** AI frameworks were born for prototypes, not for regulated production. Companies try to patch *compliance* at the last minute, and they fail.
 
----
+### 💡 The HALETHEIA Solution
 
-## ⚖️ Nuestros Pilares Filosóficos
+We invert the paradigm: **Governance and ethics are not an external filter, they are the base architecture.**
 
-| Lo que rechazamos ❌ | Lo que construimos ✅ |
-| :--- | :--- |
-| **La Caja Negra** (Sistemas opacos y mágicos) | **Trazabilidad Epistémica** (El sistema sabe qué no sabe) |
-| **Sustitución Cognitiva** (Reemplazar al humano) | **Amplificación Cognitiva** (El humano en el centro del loop) |
-| **Filtros Post-Hoc** (Censura ciega) | **Ética por Diseño** (Reglas integradas en la arquitectura base) |
-| **Dependencia Cloud** (Pérdida de soberanía) | **Local-First & Privacidad** (Tus datos, tus reglas) |
-| **Automatización Temeraria** (Acceso irrestricto) | **Seguridad Estructural** (Muros de contención y sandboxing) |
-
----
-
-## 🌐 El Ecosistema HALETHEIA
-
-HALETHEIA no es un LLM. Es la infraestructura operativa, ética y metodológica que rodea a los modelos para hacerlos seguros, coherentes y funcionales en entornos reales.
-
-Nuestro ecosistema público se divide en tres ejes fundamentales:
-
-### 1. El Protocolo de Colaboración (HCP)
-El **Human-Code-AI Protocol (HCP)** es el estándar metodológico que rige cómo interactuamos con la IA. Así como Git revolucionó el control de versiones, HCP revoluciona el control del **contexto**. Define roles claros, persistencia de memoria (`.procontext/`) y flujos de trabajo predecibles para evitar que la IA pierda el rumbo en tareas complejas.
-
-### 2. Security Triad (Ejecución Segura)
-Darle acceso a una terminal o a tu código a un agente autónomo es un riesgo crítico. Hemos desarrollado un conjunto de herramientas *Open Source* enfocadas en aislar, validar y auditar cada acción que una IA intenta ejecutar en tu máquina, garantizando que el código generado sea seguro antes de impactar tu sistema.
-
-### 3. Conocimiento Público e Investigación
-Creemos en la investigación abierta. Publicamos nuestros hallazgos, manifiestos éticos (MEIA) y patrones arquitectónicos para fomentar una comunidad que valore la **humildad epistémica** por encima del *hype* tecnológico.
+We build the structural ecosystem that:
+- ✅ **Optimizes people**, not processes
+- ✅ **Audits agents**, doesn't blindly trust them
+- ✅ **Preserves human agency**, doesn't automate everything
 
 ---
 
-## 🛠️ Tecnologías que nos mueven
+## 🧬 The HALETHEIA Ecosystem
 
-Construimos sobre fundamentos sólidos, priorizando la seguridad y el rendimiento:
-- **Rust**: Para nuestra infraestructura de seguridad, proxies CLI y sandboxing de alta velocidad.
-- **Python**: Para la orquestación cognitiva y el procesamiento de contexto.
-- **Protocolos Abiertos**: Adopción profunda del *Model Context Protocol (MCP)* para estandarizar la interoperabilidad.
+Our stack is divided into **Open Source (Legos)** and **Enterprise (Castle)**:
+
+### 🟢 Open Source: Primitives for Responsible AI
+
+We release our fundamental protocols and frameworks so the community can build ethical and traceable agents.
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 📚 HCP Protocol
+**Git-Native Context Management**
+
+If code deserves Git, context deserves structure.
+
+HCP is the **first git-native protocol** for governing context between humans and LLMs through structured directories (`.procontext/`).
+
+**Real impact:**
+- ✅ Validated in production (8+ months)
+- ✅ Built by one engineer
+- ✅ Proven in real projects
+- ✅ Convergence with SPDD (Martin Fowler)
+
+[![Explore HCP](https://img.shields.io/badge/🔗_Explore-HCP_Protocol-00D9FF?style=for-the-badge)](https://github.com/haletheia/hcp)
+
+</td>
+<td width="33%" align="center">
+
+### 🧠 LiiADA Framework
+**Modular Agent Orchestration**
+
+100% modular orchestration framework.
+
+Unlike monolithic black boxes, LiiADA connects **memory (CIPP)**, **multi-domain RAGs**, and **LLM providers** with traceability from the first token.
+
+**Hexagonal architecture:**
+- ✅ 13 independent modules
+- ✅ Plug & Play capabilities
+- ✅ Observability built-in
+- ✅ Multi-LLM (Ollama, OpenAI, Anthropic, Gemini)
+
+[![Explore LiiADA](https://img.shields.io/badge/🔗_Explore-LiiADA_Core-8800ff?style=for-the-badge)](https://github.com/haletheia/liiada-core)
+
+</td>
+<td width="33%" align="center">
+
+### 📜 MEIA Manifesto
+**Ethical Foundation**
+
+The philosophical heart that guides our code.
+
+The **"Ethics of the Excluded"** materialized in software development principles: Privacy by Design, Epistemic Humility, and Algorithmic Transparency.
+
+**52+ interactive documents:**
+- ✅ 11 main chapters
+- ✅ 40+ analyzed ethical cases
+- ✅ Living dynamic system (Astro)
+- ✅ Real-time metrics
+
+[![Read MEIA](https://img.shields.io/badge/🔗_Read-MEIA_Manifesto-00ff88?style=for-the-badge)](https://github.com/haletheia/meia)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 👁️‍🗨️ Por qué "Haletheia"
+## 🏛️ The 5 Ethical Pillars of MEIA
 
-**Aletheia** (ἀλήθεια) significa "desvelamiento" o "el estado de no estar oculto" en la filosofía heideggeriana. La verdad no es estática; es un proceso activo de revelación. 
+<div align="center">
 
-En IA, no buscamos sistemas que finjan tener todas las respuestas. Buscamos sistemas que **desvelen honestamente lo que saben y admitan con humildad lo que no**. La **H** inicial rinde homenaje tanto al concepto original como al creador de estos proyectos (Hidden).
+![MEIA Ethical Principles](./assets/meia-ethical-principles.png)
+
+</div>
+
+### 🔒 1. Privacy by Design
+**Not compliance, it's architecture.**
+
+- Data minimization from initial design
+- Encryption by default, not as a patch
+- GDPR and CCPA aligned from the first line of code
+
+### 🤔 2. Epistemic Humility
+**AI admits when it doesn't know.**
+
+- No "creative" hallucinations in production
+- Confidence metrics in every response
+- The agent says "I don't have enough information" when necessary
+
+### 🔍 3. Algorithmic Transparency
+**Explainable decisions, auditable code.**
+
+- Open Source by default (Legos)
+- Structured and versioned logs (Git-Native)
+- Traceability of every generated token
+
+### 🧭 4. Human Agency
+**Humans in the loop, not on autopilot.**
+
+- Trust Loop: User approves every piece of evidence
+- Granular control over agent autonomy
+- You can always stop, review, or modify
+
+### 👑 5. Cognitive Sovereignty
+**Users own their AI context.**
+
+- Context versioned in Git (no lock-in)
+- Exportable, auditable, transferable
+- You don't depend on a provider for your knowledge
+
+> *"Optimize people, not processes. Uncover truth, maintain control."*  
+> — MEIA foundational principle
+
+---
+
+## 📊 Real Validation
+
+<div align="center">
+
+![HALETHEIA Real Validation](./assets/haletheia-real-validation.png)
+
+</div>
+
+### 🌍 External Validation
+
+**Industry convergence:**
+- ✅ **Martin Fowler (ThoughtWorks)**: SPDD (Structured Prompt-Driven Development) validates the HCP approach
+- ✅ **Anthropic**: Claude.md patterns converge with HCP
+- ✅ **GitHub**: Copilot Workspace adopts structured context
+
+**Honest about the journey:**
+- 🏗️ Built solo by one engineer over 8+ months
+- ✅ Validated in real production projects (own projects)
+- ✅ Open Source protocols with clear philosophical foundation
+- ✅ No fake star counts, no inflated metrics
+- 🎯 Focus: Quality and coherence over vanity metrics
+
+---
+
+## 🔵 Enterprise: Compliance and Regulated Production
+
+The HALETHEIA Open Source ecosystem embodies transparency. However, for deployments in **highly regulated** environments (finance, healthcare, government), organizations require:
+
+- 🔐 **Immutable cryptographic audits**
+- 🏗️ **Hardware isolation (KVM)**
+- 🎛️ **Granular access control (RBAC)**
+- 📋 **Automatic EU AI Act reports**
+
+For these cases, we offer our **Enterprise (Castle)** layer:
+
+### 🏢 NIDALI Enterprise Harness
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🎨 NIDALI UI
+**Corporate dashboard and human Trust Loop.**
+
+- Unified control panel for all your agents
+- Human validation of every piece of evidence (Trust Loop)
+- Management of curated knowledge vaults
+- Real-time confidence metrics
+
+</td>
+<td width="50%">
+
+#### 🛡️ Sentinel Gateway
+**Reactive firewall and hallucination prevention.**
+
+- 100% non-blocking API Gateway (Java 21 reactive)
+- Circuit Breakers for LLMs (Resilience4j)
+- Intelligent routing (LiiADA ↔ Hidden Brain)
+- Asymmetric timeouts per provider
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🧠 Hidden Brain (RAG 4.0)
+**Generative and auditable Knowledge Base.**
+
+- Agentic RAG with Pydantic AI
+- Knowledge Integrity (Karpathy Linter)
+- Token Optimization (aronly: -60-90%)
+- Audit & Traceability (cutufato logs)
+- Knowledge Graph (Neo4j) + Vector Search (pgvector)
+
+</td>
+<td width="50%">
+
+#### 🏝️ Marisma Sandbox
+**Hardware isolation for code execution.**
+
+- Ephemeral Unikernels (KVM, not Docker)
+- Megabyte VMs (not gigabytes)
+- Radical security: hardware isolation
+- ROI: 40-60% cloud savings vs containers
+
+</td>
+</tr>
+</table>
+
+### 📋 EU AI Act Compliance
+
+HALETHEIA Enterprise automatically generates **audit evidence** according to Article 12 of the EU AI Act:
+
+- ✅ **Structured logs** of every agent decision
+- ✅ **Complete traceability** from input to output
+- ✅ **Confidence metrics** for every response
+- ✅ **Exportable reports** for audits
+
+🏢 **[Discover our Enterprise solutions](https://haletheia.github.io)**
+
+---
+
+## 🛠️ Tools and OSS Gems
+
+Besides our core, HALETHEIA publishes security and optimization tools under MIT/AGPL license:
+
+| Tool | Purpose | Impact |
+|------|---------|--------|
+| **[aronly](https://github.com/drhiidden/aronly)** | Token optimization (Rust) | ↓ 60-90% token usage |
+| **[babuino](https://github.com/drhiidden/babuino)** | Hardware isolation (KVM) | Secure AI code execution |
+| **[xokito](https://github.com/drhiidden/xokito)** | Privacy framework | PII obfuscation and redaction |
+| **[cutufato](https://github.com/drhiidden/cutufato)** | Auditable logs | Cryptographic traceability |
+
+---
+
+## 🚀 Get Started Now
+
+### 👨‍💻 For Developers
+
+**Quickstart with HCP:**
+```bash
+# 1. Install HCP Toolkit
+git clone https://github.com/haletheia/hcp.git
+cd hcp && npm install -g
+
+# 2. Initialize a project
+hcp init --template=minimal
+
+# 3. Use structured context
+hcp verify  # Validate your .procontext/
+```
+
+**Quickstart with LiiADA:**
+```bash
+# 1. Install LiiADA Core
+pip install liiada-core
+
+# 2. Configure your first agent
+from liiada import Agent, LLM
+
+agent = Agent(
+    llm=LLM.ollama(model="llama3"),
+    memory="episodic",
+    traceable=True
+)
+
+# 3. Generate with traceability
+response = agent.generate("How to optimize this code?")
+print(response.audit_log)  # View complete traceability
+```
+
+**Resources:**
+- 📚 [Complete Documentation](https://haletheia.github.io/docs)
+- 💬 [Discord Community](https://discord.gg/haletheia)
+- 📺 [YouTube Tutorials](https://youtube.com/@haletheia)
+
+### 🏢 For CISOs and CTOs
+
+Need to comply with the EU AI Act? Looking for enterprise AI without black boxes?
+
+- 📅 **[Schedule a demo](https://haletheia.github.io/demo)**
+- 📋 **[Join the Enterprise Waitlist](https://haletheia.github.io/waitlist)**
+- 📧 **[Direct contact](mailto:enterprise@haletheia.ai)**
+
+---
+
+## 🌐 Additional Resources
+
+### 📖 Technical Documentation
+- [HCP Whitepaper](https://github.com/haletheia/hcp/blob/main/WHITEPAPER.md)
+- [LiiADA Architecture Docs](https://github.com/haletheia/liiada-core/tree/main/docs)
+- [MEIA Platform (52+ documents)](https://github.com/haletheia/meia)
+
+### 🎓 Learning
+- [Technical Blog (drhidden.github.io)](https://drhidden.github.io)
+- [Case Studies](https://haletheia.github.io/case-studies)
+- [Webinars and Workshops](https://haletheia.github.io/events)
+
+### 🤝 Community
+- [Contributing to HALETHEIA](https://github.com/haletheia/.github/blob/main/CONTRIBUTING.md)
+- [Code of Conduct](https://github.com/haletheia/.github/blob/main/CODE_OF_CONDUCT.md)
+- [Roadmap 2026-2027](https://haletheia.github.io/roadmap)
+
+---
+
+## 📜 Licenses and Philosophy
+
+- **Open Source (Legos):** AGPL-3.0 / MIT depending on project
+- **Enterprise (Castle):** Commercial license with support
+
+**Philosophy:**
+> *"Technology should serve people, not replace them. AI agents should amplify human intelligence, not obscure it. Ethics is not a compliance checkbox, it is the base architecture."*
 
 ---
 
 <div align="center">
 
-*Infraestructura para usar IA con conciencia — Amplificación, no reemplazo*
+### 🌟 Join the Movement
 
-[Explora nuestros Repositorios OSS](https://github.com/orgs/haletheia/repositories) · [Descubre el Protocolo HCP](https://github.com/haletheia/human-code-ai-protocol) · [Sitio Web](https://haletheia.github.io)
+**We're building the future of responsible AI. Join us.**
+
+[![GitHub](https://img.shields.io/badge/GitHub-HALETHEIA-181717?style=social&logo=github)](https://github.com/haletheia)
+[![Follow @haletheia](https://img.shields.io/twitter/follow/haletheia?style=social)](https://twitter.com/haletheia)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-HALETHEIA-0077B5?style=flat&logo=linkedin)](https://linkedin.com/company/haletheia)
+
+---
+
+**HALETHEIA AI Lab**  
+*Uncover truth. Maintain control.*
+
+🌐 [haletheia.github.io](https://haletheia.github.io) | 📧 [hello@haletheia.ai](mailto:hello@haletheia.ai)
 
 </div>
